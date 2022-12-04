@@ -1,9 +1,12 @@
-//Find prime number
 
-let x = 1,2,3,4,5,6,7,8,;
+let factor = 0
+for(let i=1;i<N;i++){
 
-if(x%2==0){
+if(N%i==0){
+factor++;
+}
+if(factor==2){
 console.log("prime number");
 }else{
-console.log("No prime number");
+console.log("Not prime number");
 }
